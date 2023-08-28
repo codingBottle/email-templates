@@ -1,0 +1,25 @@
+{
+  "name": "react-email-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "email dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingBottle/email-templates.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codingBottle/email-templates/issues"
+  },
+  "homepage": "https://github.com/codingBottle/email-templates#readme",
+  "dependencies": {
+    "@react-email/button": "0.0.10",
+    "@react-email/html": "0.0.4",
+    "react-email": "1.9.4"
+  }
+}
