@@ -27,7 +27,7 @@ export default function Email({ applicant, part, place, link }: Props) {
   return (
     <Html lang="ko">
       <Head>
-        <title>CodingBottle</title>
+        <title>CodingBottle - 서류 합격</title>
       </Head>
       <Preview>CodingBottle</Preview>
       <Body style={wrapper}>
@@ -68,6 +68,10 @@ export default function Email({ applicant, part, place, link }: Props) {
               <Link href={link} target="_blank">
                 codingBottle 면접
               </Link>
+            </Text>
+            <Text style={text}>
+              골라주신 시간 10분 전에 메일로 구글 미트 링크를 보내드릴 예정이니
+              맞춰 들어와 주시길 바랍니다.
             </Text>
             <Text style={text}>
               면접이나 그 외 궁금하신 점이 있으시다면 편하게 연락주세요.
